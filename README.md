@@ -19,7 +19,10 @@ The code structure is the same as for the [comments plugin](https://github.com/h
   - Make sure the apppool has sufficient privileges on the folder.
 
 3. Configure the config/config.js file for field mappings
-- Make sure to choose fields which do not have random data in it. The plugin expects to find either it's own json data structure, or null
+- Make sure to choose fields which do not have random data in it. 
+- The plugin expects to find either it's own json data structure, or null
+- You should probably choose a non-indexed field for the JSON data
+- You should probably also add the configured fields to the list of Copy2Exception
 
 4. In the Admin Tool, configure this external tool 
   - Access mode: NewsBoard / Template / Section
