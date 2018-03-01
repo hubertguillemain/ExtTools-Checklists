@@ -5,16 +5,7 @@ If you are looking for more advanced task management, you should probably implem
 
 Bug reports, change requests and pull requests are welcome in this Issue section.
 
-
-
-# Educational purpose
-
-The goal here is to provide a simple yet functional sample project that can easily be forked also by casual developers:
-- No build process needed, just copy/paste (see How-to section below)
-- Maintain look and feel using semantic UI
-- Supports all modern Browsers, including necessary  polyfills for IE11+
-- A single, easy to read file (main.js) with all the functional implementation to play with. Just leave the rest as it is and it should "just work"
-- Configuration via a simple config.js file
+The code structure is the same as for the [comments plugin](https://github.com/hubertguillemain/ExtTools-Comments)
 
 # How-to
 
